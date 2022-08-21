@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css" crossorigin="anonymous">
+	<link rel="icon" type="image/icon" href="../images/favicon.icon">
+	<script src="https://kit.fontawesome.com/b2d33a2a71.js" crossorigin="anonymous"></script>
+	<link href="../toastr/toastr.css" rel="stylesheet"/>
+	<script src="../toastr/jquery.min.js"></script>
+	<link rel="icon" type="image/ico" href="image/favicon.ico">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="../toastr/toastr.min.js"></script>
+	<title>Delivery Information</title>
+</head>
+<body>
+
+	<!-- NAVBAR -->
+	<section class="navbar">
+		<a href="../caffe site"><img title="Home Page" src="../images/favicon.icon" alt="LOGO"></a>
+		<ol>
+			<li title="Check out"><i class="fa-brands fa-cc-amazon-pay"></i></li>
+			<li title="Shopping Cart">
+				<!-- <a href='cart.html'><i class="fa-solid fa-cart-shopping"></i></a>
+				<span class="inCartNumber">0</span> -->
+				<i class="fa-solid fa-truck"></i>
+			</li>
+			<li><i class="fa-solid fa-comments-question"></i></li>
+		</ol>
+	</section>
+
+	<!-- Form -->
+	<div class="menu disclaimer-area">
+		<h3>Enter your delivery Information</h3>
+		<p>
+			Please provide your correct delivery information in the form below.
+			We promise not to share your information you type below to any third-party user.
+			It is meant to deliver your product to your destination only.
+		</p>
+	</div>
+	<div class="menu form">
+		<div class="formError"></div>
+		<label>Your name:</label>
+		<input type="text" id="name" placeholder=""/>
+		<label>Your number: (for contact purposes)</label>
+		<input type="number" id="number" placeholder=""/>
+		<label>Delivery Address</label>
+		<textarea id="address"></textarea>
+		<button>Confirm Address</button>
+	</div>
+
+	<!-- JavaScript Logic for Delivery Information -->
+
+	<script src="_logic.js"></script>
+</body>
+</html>

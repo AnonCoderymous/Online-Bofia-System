@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css" crossorigin="anonymous">
+	<link rel="icon" type="image/icon" href="./images/favicon.icon">
+	<script src="https://kit.fontawesome.com/b2d33a2a71.js" crossorigin="anonymous"></script>
+	<link href="./toastr/toastr.css" rel="stylesheet"/>
+	<script src="./toastr/jquery.min.js"></script>
+	<link rel="icon" type="image/ico" href="image/favicon.ico">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="./toastr/toastr.min.js"></script>
+	<title>Cart - Online Caffee</title>
+</head>
+<body>
+
+	<section class="navbar">
+		<a href="../caffe site"><img title="Home Page" src="./images/favicon.icon" alt="LOGO"></a>
+		<ol>
+			<li><a href="../caffe site">Home</a></li>
+			<li title="Check out"><i class="fa-brands fa-cc-amazon-pay"></i></li>
+			<li title="Shopping Cart">
+				<i class="fa-solid fa-cart-shopping"></i>
+				<span class="inCartNumber">0</span>
+			</li>
+			<li id='clearCart'><a onclick="clearCart()" id="clrcrt">Clear Cart</a></li>
+		</ol>
+	</section>
+
+	<!-- Cart Items Area -->
+
+	<section class="products">
+		<ol></ol>
+	</section>
+
+	<section class="emptycart">
+		
+	</section>
+
+<script src="logic.js"></script>
+</body>
+</html>

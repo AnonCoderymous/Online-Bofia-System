@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css" crossorigin="anonymous">
+	<link rel="icon" type="image/icon" href="./images/favicon.icon">
+	<script src="https://kit.fontawesome.com/b2d33a2a71.js" crossorigin="anonymous"></script>
+	<link href="./toastr/toastr.css" rel="stylesheet"/>
+	<script src="./toastr/jquery.min.js"></script>
+	<link rel="icon" type="image/ico" href="image/favicon.ico">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="./toastr/toastr.min.js"></script>
+	<title>Online Caffee</title>
+</head>
+<body>
+
+	<!-- NAVBAR -->
+	<section class="navbar">
+		<a href="../caffe site"><img title="Home Page" src="./images/favicon.icon" alt="LOGO"></a>
+		<ol>
+			<li title="Check out"><i class="fa-brands fa-cc-amazon-pay"></i></li>
+			<li title="Shopping Cart">
+				<a href='cart.html'><i class="fa-solid fa-cart-shopping"></i></a>
+				<span class="inCartNumber">0</span>
+			</li>
+			<li><i class="fa-solid fa-comments-question"></i></li>
+		</ol>
+	</section>
+
+	<!-- BURGER SECTION -->
+	<section class="menu burger">
+		<h1>Burgers</h1>
+		<ol>
+			<li>
+				<img src="./images/crispyburger.jpg" alt="">
+				<div class="item-name">
+					Crispy Burger
+				</div>
+				<div class="prices">
+					85 Rs
+				</div>
+				<button>Add to Cart</button>
+			</li>
+			<li>
+				<img src="./images/cheeseburger.jpg" alt="">
+				<div class="item-name">
+					Cheese Burger
+				</div>
+				<div class="prices">
+					60 Rs
+				</div>
+				<button>Add to Cart</button>
+			</li>
+			<li>
+				<img src="./images/vegburger.jpg" alt="">
+				<div class="item-name">
+					Veg Burger
+				</div>
+				<div class="prices">
+					75 Rs
+				</div>
+				<button>Add to Cart</button>
+			</li>
+		</ol>
+	</section>
+
+	<section class="menu shawarma">
+		<h1>Shawarmas</h1>
+		<ol>
+			<li>
+				<img src="./images/chickenshawarma.jpg" alt="">
+				<div class="item-name">
+					Chicken Shawarma
+				</div>
+				<div class="prices">
+					50 Rs
+				</div>
+				<button>Add to Cart</button>
+			</li>
+			<li>
+				<img src="./images/cheeseshawarma.jpg" alt="">
+				<div class="item-name">
+					Cheese Shawarma
+				</div>
+				<div class="prices">
+					70 Rs
+				</div>
+				<button>Add to Cart</button>
+			</li>
+			<li>
+				<img src="./images/paneershawarma.jpg" alt="">
+				<div class="item-name">
+					Paneer Shawarma
+				</div>
+				<div class="prices">
+					60 Rs
+				</div>
+				<button>Add to Cart</button>
+			</li>
+		</ol>
+	</section>
+
+	<section class="menu multi">
+		<h1>Pizzas</h1>
+		<ol>
+			<li>
+				<img src="./images/chickencheesepizza.jpg" alt="">
+				<div class="item-name">
+					Chicken Cheese Pizza
+				</div>
+				<div class="prices">
+					130 Rs
+				</div>
+				<button>Add to Cart</button>
+			</li>
+			<li>
+				<img src="./images/chickenroyalpizza.jpg" alt="">
+				<div class="item-name">
+					Chicken Royal Pizza
+				</div>
+				<div class="prices">
+					150 Rs
+				</div>
+				<button>Add to Cart</button>
+			</li>
+			<li>
+				<img src="./images/paneerpizza.jpg" alt="">
+				<div class="item-name">
+					Paneer Pizza
+				</div>
+				<div class="prices">
+					130 Rs
+				</div>
+				<button>Add to Cart</button>
+			</li>
+			<li>
+				<img src="./images/vegpizza.jpg" alt="">
+				<div class="item-name">
+					Veg Pizza
+				</div>
+				<div class="prices">
+					110 Rs
+				</div>
+				<button>Add to Cart</button>
+			</li>
+		</ol>
+	</section>
+
+	<section class="menu multi">
+		<h1>French Fries</h1>
+		<ol>
+			<li>
+				<img src="./images/frenchfries.jpg" alt="">
+				<div class="item-name">
+					French Fries (100) GM
+				</div>
+				<div class="prices">
+					50 Rs
+				</div>
+				<button>Add to Cart</button>
+			</li>
+			<li>
+				<img src="./images/periperifries.jpg" alt="">
+				<div class="item-name">
+					Peri Peri Fries
+				</div>
+				<div class="prices">
+					70 Rs
+				</div>
+				<button>Add to Cart</button>
+			</li>
+			<li>
+				<img src="./images/mayofries.jpg" alt="">
+				<div class="item-name">
+					Mayo Fries
+				</div>
+				<div class="prices">
+					60 Rs
+				</div>
+				<button>Add to Cart</button>
+			</li>
+			<li>
+				<img src="./images/cheesefries.jpg" alt="">
+				<div class="item-name">
+					Cheese Fries
+				</div>
+				<div class="prices">
+					70 Rs
+				</div>
+				<button>Add to Cart</button>
+			</li>
+		</ol>
+	</section>
+
+	<section class="menu multi">
+		<h1>Chicken Items</h1>
+		<ol>
+			<li>
+				<img src="./images/chickenuggets.jpg" alt="">
+				<div class="item-name">
+					Chicken Nuggets
+				</div>
+				<div class="prices">
+					150 Rs
+				</div>
+				<button>Add to Cart</button>
+			</li>
+			<li>
+				<img src="./images/chickenstrips.jpg" alt="">
+				<div class="item-name">
+					Chicken Strips (6 Pieces)
+				</div>
+				<div class="prices">
+					170 Rs
+				</div>
+				<button>Add to Cart</button>
+			</li>
+			<li>
+				<img src="./images/chickendrum.jpg" alt="">
+				<div class="item-name">
+					Chicken Drum (6 Pieces)
+				</div>
+				<div class="prices">
+					250 Rs
+				</div>
+				<button>Add to Cart</button>
+			</li>
+			<li>
+				<img src="./images/chickenbucket.jpg" alt="">
+				<div class="item-name">
+					Chicken Bucket
+				</div>
+				<div class="prices">
+					380 Rs
+				</div>
+				<button>Add to Cart</button>
+			</li>
+		</ol>
+		<ol>
+			<li>
+				<img src="./images/chickenbiryani.jpg" alt="">
+				<div class="item-name">
+					Chicken Biryani
+				</div>
+				<div class="prices">
+					100 Rs
+				</div>
+				<button>Add to Cart</button>
+			</li>
+			<li>
+				<img src="./images/chickenseekh.jpg" alt="">
+				<div class="item-name">
+					Chicken Seekh (2 Peices)
+				</div>
+				<div class="prices">
+					70 Rs
+				</div>
+				<button>Add to Cart</button>
+			</li>
+			<li>
+				<img src="./images/chickenbhuna.jpg" alt="">
+				<div class="item-name">
+					Chicken Bhuna
+				</div>
+				<div class="prices">
+					80 Rs
+				</div>
+				<button>Add to Cart</button>
+			</li>
+		</ol>
+	</section>
+
+	<section class="menu other">
+		<h1>Other Items</h1>
+		<ol>
+			<li>
+				<img src="./images/paratha.jpg" alt="">
+				<div class="item-name">
+					Paratha (Per Peice)
+				</div>
+				<div class="prices">
+					38.80 Rs
+				</div>
+				<button>Add to Cart</button>
+			</li>
+			<li>
+				<img src="./images/coldrinks.jpg" alt="">
+				<div class="item-name">
+					Cold Drinks
+				</div>
+				<div class="prices">
+					20 Rs
+				</div>
+				<button>Add to Cart</button>
+			</li>
+			<li>
+				<img src="./images/water.jpg" alt="">
+				<div class="item-name">
+					Water
+				</div>
+				<div class="prices">
+					20 Rs
+				</div>
+				<button>Add to Cart</button>
+			</li>
+	</section>
+
+<!-- JavaScript Logic -->
+<script type="text/javascript" src="logic.js"></script>
+</body>
+</html>
